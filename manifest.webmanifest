@@ -1,4 +1,5 @@
 {
+  "id": "./",
   "name": "フレーズトーク",
   "short_name": "フレーズトーク",
   "description": "本から集めたフレーズを、声の会話で使えるようにする。",
@@ -6,10 +7,14 @@
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#1e1d1b",
   "theme_color": "#1e1d1b",
   "icons": [
     { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
-    { "src": "./icon-180.png", "sizes": "180x180", "type": "image/png" }
+    { "src": "./icon-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ]
 }

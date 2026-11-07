@@ -1,10 +1,10 @@
 // フレーズトークのサービスワーカー：一度開いた画面と文字をスマホに残し、電波がなくても開けるようにする。
 // 中継サーバー（別のドメイン）への通信は残さない。
 
-const CACHE = 'phrasetalk-v1';
+const CACHE = 'phrasetalk-v2';
 
 self.addEventListener('install', (event) => {
-  event.waitUntil(caches.open(CACHE).then((c) => c.addAll(['./', './index.html', './manifest.webmanifest', './icon.svg', './icon-180.png'])));
+  event.waitUntil(caches.open(CACHE).then((c) => c.addAll(['./', './index.html', './manifest.webmanifest', './icon.svg', './icon-180.png', './icon-192.png', './icon-512.png'])));
   self.skipWaiting();
 });
 
